@@ -1,4 +1,4 @@
-import logo from "../assets/a11-farms-logo.png"; 
+// import logo from "../assets/a11-farms-logo.png"; 
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
         {/* left: logo + tagline */}
         <div className="flex gap-4 items-start">
           <img
-            src={logo}
+             src="/A11-farms-logo.png"
             alt="A11 Farms & Nursery"
             className="w-14 h-14 object-contain"
           />
