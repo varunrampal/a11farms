@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
-// import logo from "../assets/A11-farms-logo.png"; 
+import logo from "../assets/A11-farms-logo.png"; 
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -44,9 +44,9 @@ export default function Navbar() {
           {/* logo initial if you want */}
         {/* </div> */}
         <img
-          src="/A11-farms-logo.png"
+          src={logo}
           alt="A11 Farms & Nursery"
-          className="h-12 w-auto object-contain"
+          className="h-14 w-auto object-contain"
         />
       </Link>
       <button
