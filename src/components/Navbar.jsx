@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
-import logo from "../assets/A11-farms-Logo.png"; 
+import logo from "../assets/A11-farms-logo.png"; 
 
 const navLinks = [
   { to: "/", label: "Home" },
