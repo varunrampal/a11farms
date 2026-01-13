@@ -22,7 +22,7 @@ export default function Navbar() {
       {/* left: address */}
       <div className="flex items-center gap-2">
         
-        <span>29819 Dewdney Trunk Rd.Mission B.C. V4S 1B7</span>
+        {/* <span>29819 Dewdney Trunk Rd.Mission B.C. V4S 1B7</span> */}
       </div>
       {/* right: phone + email */}
       <div className="flex items-center gap-4">
