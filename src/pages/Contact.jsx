@@ -89,13 +89,13 @@ export default function Contact() {
     </div>
 
     {/* Address */}
-    <div>
+    {/* <div>
       <h3 className="text-sm font-semibold text-slate-800 mb-1">Address</h3>
       <p className="text-slate-600">
         29819 Dewdney Trunk Rd<br />
         Mission B.C. V4S 1B7
       </p>
-    </div>
+    </div> */}
 
     {/* Business Hours */}
     <div>
